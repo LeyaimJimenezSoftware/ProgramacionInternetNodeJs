@@ -1,0 +1,12 @@
+function person(firstname, lastname){
+   this.firstname = firstname;
+   this.lastname = lastname;
+}
+
+person.prototype.greet = function(){
+   console.log('Hello,' + this.firstname +''+ this.lastname);
+
+};
+
+let leya = new person('leyaim','jimenez');
+leya.greet();
