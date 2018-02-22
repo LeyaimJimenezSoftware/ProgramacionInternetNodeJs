@@ -1,0 +1,15 @@
+var person = {
+
+   firstname:'leyaim',
+   lastname:'jimenez',
+   greet: function(){
+      console.log('hello, '+ this.firstname + '' + this.lastname);
+
+   }
+};
+
+   person.greet();
+
+   console.log(person ['firstname']);
+
+
